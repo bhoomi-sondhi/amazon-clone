@@ -1,0 +1,541 @@
+<html>
+<head>
+<title> Amazon clone</title>
+<link rel="stylesheet" href="amazon2.css">
+    <meta charset="UTF-8">
+    <style>
+        @media only screen and (max-width: 500px) {
+  .hide{
+  display: none;
+}
+}
+    </style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<header class="header">
+<div class="container container-header">
+<div class="logo border-white">
+<div class="logo-container">
+</div>
+</div>
+<div class="address-container border-white">
+<p class="hello"> Hello</p>
+<div class="icon">
+<i class="fa-solid fa-location-dot"></i>
+<p> Select your address</p>
+</div>
+</div>
+<div class="search-container">
+<select>
+<option>All</option>
+</select>
+<input type="text" placeholder="">
+<div class="search-icon">
+<i class="fa-solid fa-magnifying-glass"></i>
+</div>
+</div>
+
+
+<div class="lang border-white">
+<p> English</p>
+<div class="img"></div>
+
+</div>
+
+<div class="account border-white">
+<p> Hello<span>.sign in</span></p>
+<p>Account & list</p>
+</div>
+<div class="return border-white">
+<p>Returns</p>
+<p>&orders</p>
+</div>
+<div class="cart">
+<p><i class="fa-solid fa-cart-shopping">0</i></p>
+
+</div>
+</div>
+</header>
+<!--navigation-->
+<nav class="nav">
+<div class="navcontainer">
+<ul>
+   <li id="open-nav-slider"><span>
+  <i class="fa-solid fa-bars"></i>All
+   </span></li>
+<li><a href="">Best Sellers</a></li>
+<li><a href="">Today's Deals</a></li>
+<li><a href="">Mobiles</a></li>
+<li><a href="">Customer services</a></li>
+<li><a href="">Electronics</a></li>
+<li><a href="">Home & Kitchen</a></li>
+<li><a href="">Fashion</a></li>
+<li><a href="">Books</a></li>
+<li><a href="">Prime</a>
+
+
+
+</li>
+
+
+
+<li></li>
+</ul>
+
+
+
+<div class="nav-right">
+<img alt="Big Savings, More Happiness" src="https://m.media-amazon.com/images/G/31/IN-Events/Shankhadip/AugArt24_Logo_75x75/AugART_PC_SWM_live_now_1x_v4._CB804614378_.jpg">
+
+</div>
+</div>
+
+</nav>
+<!--sidebar navigation-->
+<div class="sidebar-container" id="sidebar-show">
+<div class="sidebar-left-part">
+<div class="sidebar-top">
+<i class="fa-solid fa-circle-user"></i>
+<h2>Hello,<span>Sign in</span></h2>
+
+</div>
+<div class="sidebar-wrap"><div class="sidebar-item">
+<h2>Trending</h2>
+<p>Best Sellers</p>
+<p>New releases</p>
+<p>Movers and Shakers</p>
+</div>
+<div class="sidebar-item">
+<h2>Digital Content And Devices</h2>
+<p>Echo & Alexa</p>
+<p>Fee TV</p>
+<p>Kindle E-readers</p>
+<p>Amazon prime Videos</p>
+<p>Amazon Prime Music</p>
+<p>Audiobooks</p>
+
+</div>
+<div class="sidebar-item">
+<h2>Shop By Category</h2>
+<p>Mobiles</p>
+<p>TV</p>
+<p>Man's fashion</p>
+<p>Woman's fashion</p>
+
+
+</div>
+<div class="sidebar-item">
+<h2>Programs & Features</h2>
+<p>Gifts and cards</p>
+<p>Flight Tickets</p>
+<p>#Found out in amazon</p>
+</div>
+</div>
+</div>
+<button id="sidebar-nav-close">
+    <i class="fa-solid fa-xmark"></i>
+</button>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!--main body or image slider-->
+<section>
+<div class="image-container">
+    <div class="image-list">
+    <div class="image-item">
+        <img alt="Learn more. Save more. Shop the new class of deals" src="https://m.media-amazon.com/images/I/71xHyqBwdcL._SX3000_.jpg" class="_cropped-image-link_style_fluidLandscapeImage__3eTVC 
+ _cropped-image-link_style_fluidImage__iJ3aE" data-a-hires="https://m.media-amazon.com/images/I/71xHyqBwdcL._SX3000_.jpg">
+    </div>
+     <div class="image-item">
+        <img alt="Great Freedom Festival | Shop now" src="https://images-eu.ssl-images-amazon.com/images/G/31/LEO/AugART25/KV_PC2xnew._CB805026224_.jpg" height="100%" width="1500px" data-a-hires="https://images-eu.ssl-images-amazon.com/images/G/31/LEO/AugART25/KV_PC2xnew._CB805026224_.jpg">
+    </div>
+     <div class="image-item">
+        <img alt="Amazon fresh" src="https://images-eu.ssl-images-amazon.com/images/G/31/img24/Fresh/GW/AugART25/Event/SVD/AllCities/1st_GW_PC1x_Hero_RC._CB804848955_.jpg" height="100%" width="3000px" data-a-hires="https://images-eu.ssl-images-amazon.com/images/G/31/img24/Fresh/GW/AugART25/Event/SVD/AllCities/1st_GW_PC1x_Hero_RC._CB804848955_.jpg">
+    </div>
+     <div class="image-item">
+        <img alt="Baby" src="https://images-eu.ssl-images-amazon.com/images/G/31/PB/AugART/GW/Category-Hero---Asin-PC_3000x1200_1._CB804796883_.jpg" height="100%" width="1500px" data-a-hires="https://images-eu.ssl-images-amazon.com/images/G/31/PB/AugART/GW/Category-Hero---Asin-PC_3000x1200_1._CB804796883_.jpg">
+    </div>
+     <div class="image-item">
+        <img alt="Deals on children's books" src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Books/AugART25BX/Category-Hero---Lifestyle-PC-HERO3-2X._CB804869724_.jpg" height="100%" width="1500px" data-a-hires="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Books/AugART25BX/Category-Hero---Lifestyle-PC-HERO3-2X._CB804869724_.jpg">
+    </div>
+     <div class="image-item">
+        <img alt="mobile" src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/Wireless/nbshagun/AugART25/Inputs/2_Category-PC_Hero_3000x1200_Asin._CB804802908_.jpg" height="100%" width="1500px" data-a-hires="https://images-eu.ssl-images-amazon.com/images/G/31/img23/Wireless/nbshagun/AugART25/Inputs/2_Category-PC_Hero_3000x1200_Asin._CB804802908_.jpg">
+    </div>
+     <div class="image-item">
+        <img alt="Books under 499" src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Books/AugART25BX/Category-Hero---Asin-PC-sh-2x-new._CB804868256_.jpg" height="100%" width="1500px" data-a-hires="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Books/AugART25BX/Category-Hero---Asin-PC-sh-2x-new._CB804868256_.jpg">
+    </div>
+     <div class="image-item">
+        <img alt="bathmats" src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG25/Home/2025/AugART/GW/Hero/Mainevent/Hero_-ASIN_PC_Home_Mainevent_Modern_wall_clocks._CB804790930_.jpg" height="100%" width="1500px" data-a-hires="https://images-eu.ssl-images-amazon.com/images/G/31/IMG25/Home/2025/AugART/GW/Hero/Mainevent/Hero_-ASIN_PC_Home_Mainevent_Modern_wall_clocks._CB804790930_.jpg">
+    </div>
+     <div class="image-item">
+        <img alt="Water bottles &amp; lunch boxes" src="https://images-eu.ssl-images-amazon.com/images/G/31/CookwareDining/AugART25/GW/Event/WBLBUnRec3000x1200._CB804795778_.jpg" height="100%" width="3000px" data-a-hires="https://images-eu.ssl-images-amazon.com/images/G/31/CookwareDining/AugART25/GW/Event/WBLBUnRec3000x1200._CB804795778_.jpg">
+    </div>
+
+
+
+
+
+    </div>
+    <div class="image-btn-container">
+
+        <button id="slide-btn-left"><i class="fa-solid fa-angle-left"></i></button>
+        <button id="slide-btn-right"><i class="fa-solid fa-angle-right"></i></button>
+    </div>
+
+
+
+
+    </div>
+
+
+
+
+
+
+<main class="main">
+<!--product container card-->
+<div class="card-product-container">
+<div class="card-product">
+    <a href="decoration.html">
+    <h2>Shop for your home essentials</h2>
+    <div class="card-product-nested-card">
+      <div class="card-nested">
+<img alt="Cleaning Tools" src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/BAU2024Sept/CleaningTool_1x._SY116_CB563137408_.jpg" class="_fluid-quad-image-label-v2_style_fluidLandscapeImage__2euAK _fluid-quad-image-label-v2_style_fluidImage__gTBjA" data-a-hires="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/BAU2024Sept/CleaningTool_2x._SY232_CB563137408_.jpg">
+<p>Cleaning Tools</p>      
+</div>
+<div class="card-nested">
+<img alt="Home Storage" src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/BAU2024Sept/HomeStorage_1x._SY116_CB563137408_.jpg">
+<p>Home storage</p>      
+</div>
+<div class="card-nested">
+<img alt="Home Decoration" src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/BAU2024Sept/HomeDecor_1x._SY116_CB563137408_.jpg">
+<p>Home Decoration</p>      
+</div>
+<div class="card-nested">
+<img alt="Bedding" src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/BAU2024Sept/Bedding_1x._SY116_CB563137408_.jpg">
+<p>Bedding</p>      
+</div>
+    </div>
+    <button class="card-product-btn">See more</button>
+    </a>
+</div>
+
+<div class="card-product">
+       <a href="dress.html">
+    <h2>Fashion That Trends You Like</h2>
+    <div class="card-product-nested-card">
+      <div class="card-nested">
+<img alt="Dresses" src="https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2023/LuxuryStores/Spring-23/GW/Quad_Cards/Spring/LSS23_SPRING_DT_CAT_CARD_2_x1._SY116_CB595261253_.jpg">
+<p>Dresses</p>      
+</div>
+<div class="card-nested">
+<img alt="Knits" src="https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2023/LuxuryStores/Spring-23/GW/Quad_Cards/Spring/LSS23_SPRING_DT_CAT_CARD_3_x1._SY116_CB595261253_.jpg">
+<p>Knits</p>      
+</div>
+<div class="card-nested">
+<img alt="jackets" src="https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2023/LuxuryStores/Spring-23/GW/Quad_Cards/Spring/LSS23_SPRING_DT_CAT_CARD_1_x1._SY116_CB595261253_.jpg">
+<p>Jackets</p>      
+</div>
+<div class="card-nested">
+    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/PB/PCQC/AUG-25_PC_QC_186x116_5_5_11zon._SY116_CB804790294_.jpg">
+<p>Woman's wear</p>      
+</div>
+    </div>
+    <button class="card-product-btn">See more</button>
+    </a>
+</div>
+
+<div class="card-product">
+     <a href="decoration.html">
+    <h2>Up to 80%off | Home,kitchen & more</h2>
+    <div class="card-product-nested-card">
+      <div class="card-nested">
+<img alt="Kitchen essentials" src="https://images-eu.ssl-images-amazon.com/images/G/31/OHL/PAYAL/GW/AugART25/PC_QC_372x232-1-1x_Kitchen._SY116_CB804590709_.jpg">
+<p>Kitchen essentials</p>      
+</div>
+<div class="card-nested">
+<img alt="Home decoration" src="https://images-eu.ssl-images-amazon.com/images/G/31/OHL/PAYAL/GW/AugART25/PC_QC_372x232-2-1x_home._SY116_CB804590709_.jpg">
+<p>Home decoration</p>      
+</div>
+<div class="card-nested">
+<img alt="Furniture" src="https://images-eu.ssl-images-amazon.com/images/G/31/OHL/PAYAL/GW/AugART25/PC_QC_372x232-3-1x_Furniture._SY116_CB804590709_.jpg">
+<p>Furniture</p>      
+</div>
+<div class="card-nested">
+<img alt="Home improvement" src="https://images-eu.ssl-images-amazon.com/images/G/31/OHL/PAYAL/GW/AugART25/PC_QC_372x232-4-1x_HI._SY116_CB804590709_.jpg">
+<p>Home improvement</p>      
+</div>
+    </div>
+    <button class="card-product-btn">See more</button>
+    </a>
+</div>
+<div class="card-product hide">
+    <a href="electronics.html">
+    <h2>Up to 65% off | Offers on home appliances</h2>
+    <div class="card-product-nested-card">
+      <div class="card-nested">
+<img alt="Washing machine" src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/dharshini/CH_1400/PC_QC_372x232-1_WM_1x._SY116_CB804785665_.jpg">
+<p>Washing machine</p>      
+</div>
+<div class="card-nested">
+<img alt="Refigerators" src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/dharshini/CH_1400/PC_QC_372x232-1_Ref_1x._SY116_CB804785665_.jpg">
+<p>Refigerators</p>      
+</div>
+<div class="card-nested">
+<img alt="Air conditioners" src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/dharshini/CH_1400/PC_QC_372x232-1_AC_1x._SY116_CB804785665_.jpg">
+<p>Air conditioners</p>      
+</div>
+<div class="card-nested">
+<img alt="Chimneys" src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/dharshini/CH_1400/PC_QC_372x232-1_CH_1x._SY116_CB804785665_.jpg">
+<p>Chimneys</p>      
+</div>
+    </div>
+    <button class="card-product-btn">See more</button>
+    </a>
+</div>
+
+
+</div>
+
+<section class="today_deal_container">
+    <div class="todaybtncontainer">
+    <button class="deal-left"><i class="fa-solid fa-angle-left"></i></button>
+ <button class="deal-right"><i class="fa-solid fa-angle-right"></i></button>
+
+
+    </div>
+
+<div class="todayDealHeading">
+<h1>Today's Deals</h1>
+<p><a href="">See all details</a></p>
+<div class="today_deals_product_container">
+<div class="todays_deals_product_list">
+<div class="today-deal-item">
+<div class="product" onclick="showCard('Makeup stand','999','https://m.media-amazon.com/images/I/71a0mwTxooL._AC_SY200_.jpg')">
+    <img src="https://m.media-amazon.com/images/I/71a0mwTxooL._AC_SY200_.jpg">
+</div>
+<div id="priceCard">
+    <span id="closeBtn" onclick="hideCard()">  <i class="fa-solid fa-xmark"></i></span>
+    <img id="cardImage" src="https://m.media-amazon.com/images/I/71a0mwTxooL._AC_SY200_.jp">
+    <h2 id="cardtitle"></h2>
+    <p id="cardprice"></p>
+     <button class="buy">Buy now</button>
+</div>
+
+
+<div class="product" onclick="showCard('Clock','499','https://m.media-amazon.com/images/I/61KKxQiKA+L._AC_SY200_.jpg')">
+    <img src="https://m.media-amazon.com/images/I/61KKxQiKA+L._AC_SY200_.jpg">
+</div>
+<div id="priceCard">
+    <span id="closeBtn" onclick="hideCard()">  <i class="fa-solid fa-xmark"></i></span>
+    <img id="cardImage" src="https://m.media-amazon.com/images/I/61KKxQiKA+L._AC_SY200_.jpg">
+    <h2 id="cardtitle"></h2>
+    <p id="cardprice"></p>
+     <button class="buy">Buy now</button>
+</div>
+
+<div class="product" onclick="showCard('Pack Of 6 Socks','599','https://m.media-amazon.com/images/I/81SEVBzTWhL._AC_SY200_.jpg')">
+    <img src="https://m.media-amazon.com/images/I/81SEVBzTWhL._AC_SY200_.jpg">
+</div>
+<div id="priceCard">
+    <span id="closeBtn" onclick="hideCard()">  <i class="fa-solid fa-xmark"></i></span>
+    <img id="cardImage" src="https://m.media-amazon.com/images/I/81SEVBzTWhL._AC_SY200_.jpg">
+    <h2 id="cardtitle"></h2>
+    <p id="cardprice"></p>
+     <button class="buy">Buy now</button>
+</div>
+
+<div class="product" onclick="showCard('Toasters','999','https://m.media-amazon.com/images/I/61wURjcgIEL._AC_SY200_.jpg')">
+    <img src="https://m.media-amazon.com/images/I/61wURjcgIEL._AC_SY200_.jpg">
+</div>
+<div id="priceCard">
+    <span id="closeBtn" onclick="hideCard()">  <i class="fa-solid fa-xmark"></i></span>
+    <img id="cardImage" src="https://m.media-amazon.com/images/I/61wURjcgIEL._AC_SY200_.jpg">
+    <h2 id="cardtitle"></h2>
+    <p id="cardprice"></p>
+     <button class="buy">Buy now</button>
+</div>
+<div class="product" onclick="showCard('Smartwatch','999','https://m.media-amazon.com/images/I/51stTW4u0CL._AC_SY200_.jpg')">
+    <img src="https://m.media-amazon.com/images/I/51stTW4u0CL._AC_SY200_.jpg">
+</div>
+<div id="priceCard">
+    <span id="closeBtn" onclick="hideCard()">  <i class="fa-solid fa-xmark"></i></span>
+    <img id="cardImage" src="https://m.media-amazon.com/images/I/51stTW4u0CL._AC_SY200_.jpg">
+    <h2 id="cardtitle"></h2>
+    <p id="cardprice"></p>
+    <button class="buy">Buy now</button>
+</div>
+<div class="product" onclick="showCard('All out','999','https://m.media-amazon.com/images/I/71zSI8ZHvgL._AC_SY200_.jpg')">
+    <img src="https://m.media-amazon.com/images/I/71zSI8ZHvgL._AC_SY200_.jpg">
+</div>
+<div id="priceCard">
+    <span id="closeBtn" onclick="hideCard()">  <i class="fa-solid fa-xmark"></i></span>
+    <img id="cardImage" src="https://m.media-amazon.com/images/I/71zSI8ZHvgL._AC_SY200_.jpg">
+    <h2 id="cardtitle"></h2>
+    <p id="cardprice"></p>
+</div>
+
+
+
+
+</div>
+
+</section>
+<div class="card-product-container">
+<div class="card-product">
+     <a href="decoration.html">
+    <h2>Up to 70% off | Top categories from Small Businesses</h2>
+    <div class="card-product-nested-card">
+      <div class="card-nested">
+<img alt="Home Decoration" src="https://images-eu.ssl-images-amazon.com/images/G/31/Img2025/SMB/AugART/Homepage/Desktop_QC_1x_Decor._SY116_CB804969306_.jpg">
+<p>Home Decoration</p>      
+</div>
+<div class="card-nested">
+<img alt="Home Storage" src="https://images-eu.ssl-images-amazon.com/images/G/31/Img2025/SMB/AugART/Homepage/Desktop_QC_1x_Cushions._SY116_CB804969306_.jpg">
+<p>Pillows and Cushions</p>      
+</div>
+<div class="card-nested">
+<img alt="Home Decoration" src="https://images-eu.ssl-images-amazon.com/images/G/31/Img2025/SMB/AugART/Homepage/Desktop_QC_1x_Beauty._SY116_CB804969306_.jpg">
+<p>Beauty Products</p>      
+</div>
+<div class="card-nested">
+<img alt="Bedding" src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/BAU2024Sept/Bedding_1x._SY116_CB563137408_.jpg">
+<p>Bedding</p>      
+</div>
+    </div>
+    <button class="card-product-btn">See more</button>
+</a>
+</div>
+<div class="card-product">
+     <a href="electronics.html">
+    <h2>Wholesale pricing on 15 Cr + products | Register now</h2>
+    <div class="card-product-nested-card">
+      <div class="card-nested">
+<img alt="Electronics" src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG_22/art/aug25/ain/gw/Electronics4_186_116_2807._SY116_CB804806045_.jpg">
+<p>Electronics</p>      
+</div>
+<div class="card-nested">
+<img alt="Home Appliance" src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG_22/art/aug25/ain/gw/Home_Kitchen_5_186_116_2807._SY116_CB804805737_.jpg">
+<p>Home Appliances</p>      
+</div>
+<div class="card-nested">
+<img alt="Furniture" src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG_22/art/aug25/ain/gw/3_186_116_2807._SY116_CB804802534_.jpg">
+<p>Furniture</p>      
+</div>
+<div class="card-nested">
+<img alt="Amazon business" src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG_22/art/aug25/ain/gw/AB_Logo_186_116_2807._SY116_CB805024422_.jpg">
+<p>Amazon Business</p>      
+</div>
+    </div>
+    <button class="card-product-btn">See more</button>
+    </a>
+</div>
+<div class="card-product">
+    <h2>Up to 80%off | Sports,outdoor & more</h2>
+    <div class="card-product-nested-card">
+      <div class="card-nested">
+<img alt="Sports & fitness" src="https://images-eu.ssl-images-amazon.com/images/G/31/OHL/PAYAL/GW/AugART25/PC_QC_372x232-5-1x_sports._SY116_CB804590709_.jpg">
+<p>Sports & fitness</p>      
+</div>
+<div class="card-nested">
+<img alt="Automative" src="https://images-eu.ssl-images-amazon.com/images/G/31/OHL/PAYAL/GW/AugART25/PC_QC_372x232-6-1x_Auto._SY116_CB804590709_.jpg">
+<p>Automative</p>      
+</div>
+<div class="card-nested">
+<img alt="Tools" src="https://images-eu.ssl-images-amazon.com/images/G/31/OHL/PAYAL/GW/AugART25/PC_QC_372x232-7-1x_Tools._SY116_CB804590709_.jpg">
+<p>Tools</p>      
+</div>
+<div class="card-nested">
+<img alt="Garden & outdoor" src="https://images-eu.ssl-images-amazon.com/images/G/31/OHL/PAYAL/GW/AugART25/PC_QC_372x232-8-1x_LG._SY116_CB804590709_.jpg">
+<p>Garden & outdoor</p>      
+</div>
+    </div>
+    <button class="card-product-btn">See more</button>
+</div>
+<div class="card-product hide">
+     <a href="decoration.html">
+    <h2>Shop for your home essentials</h2>
+    <div class="card-product-nested-card">
+      <div class="card-nested">
+<img alt="Cleaning Tools" src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/BAU2024Sept/CleaningTool_1x._SY116_CB563137408_.jpg" class="_fluid-quad-image-label-v2_style_fluidLandscapeImage__2euAK _fluid-quad-image-label-v2_style_fluidImage__gTBjA" data-a-hires="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/BAU2024Sept/CleaningTool_2x._SY232_CB563137408_.jpg">
+<p>Cleaning Tools</p>      
+</div>
+<div class="card-nested">
+<img alt="Home Storage" src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/BAU2024Sept/HomeStorage_1x._SY116_CB563137408_.jpg">
+<p>Home storage</p>      
+</div>
+<div class="card-nested">
+<img alt="Home Decoration" src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/BAU2024Sept/HomeDecor_1x._SY116_CB563137408_.jpg">
+<p>Home Decoration</p>      
+</div>
+<div class="card-nested">
+<img alt="Bedding" src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/BAU2024Sept/Bedding_1x._SY116_CB563137408_.jpg">
+<p>Bedding</p>      
+</div>
+    </div>
+    <button class="card-product-btn">See more</button>
+    </a>
+</div>
+</div>
+</main>
+</section>
+
+
+</div>
+
+
+<footer class="footer">
+    <div class="footer-container">
+        <!-- Logo Section -->
+        <div class="footer-logo">
+            <img src="your-logo.png" alt="Amazon Clone Logo">
+        </div>
+
+        <!-- Quick Links Section -->
+        <div class="footer-links">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">Today's Deals</a></li>
+                <li><a href="#">Best Sellers</a></li>
+                <li><a href="#">Amazon Prime</a></li>
+            </ul>
+        </div>
+
+        <!-- Customer Service Section -->
+        <div class="footer-service">
+            <ul>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Returns</a></li>
+                <li><a href="#">Order Tracking</a></li>
+            </ul>
+        </div>
+
+        <!-- Social Media Section -->
+        <div class="footer-social">
+            <a href="#" class="social-icon">FB</a>
+            <a href="#" class="social-icon">Insta</a>
+            <a href="#" class="social-icon">Twitter</a>
+        </div>
+    </div>
+
+    <!-- Legal Section -->
+    <div class="footer-legal">
+        <p>&copy; 2025 Amazon Clone | Privacy Policy | Terms of Service</p>
+    </div>
+</footer>
+
+<script src="amazon.js"></script>
+</body>
+</html>
