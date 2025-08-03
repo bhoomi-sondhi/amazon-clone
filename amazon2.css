@@ -483,7 +483,7 @@ background-color: white;
 border-radius: 10px;
 z-index: 100;
 display: none;
-width: 27rem;
+width: 50rem;
 box-shadow: 12px 12px 30px black;
 
 }
@@ -509,3 +509,4 @@ text-decoration: none;
 .priceCard:target~ body{
 filter: blur(2px);
 }
+
