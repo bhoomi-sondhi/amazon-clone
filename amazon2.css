@@ -362,7 +362,7 @@ color: aqua;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    column-gap: 4rem;   
+    
 }
 
 .main{
@@ -509,4 +509,5 @@ text-decoration: none;
 .priceCard:target~ body{
 filter: blur(2px);
 }
+
 
